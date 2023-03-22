@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RamadanWelcomingScreen</string>
+    <string name="ramadan_is_a_month_of_spiritual_n_devotion_including_fasting_prayer_and_quranic_study_may_allah_n_accept_our_efforts">Ramadan is a month of spiritual devotion, including fasting, prayer, and Quranic study . May Allah accept our efforts</string>
+    <string name="welcome_ramadan">Welcome Ramadan</string>
+    <string name="ramadan_is_a_time_of_spiritual_renewal_and_reflection_take_this_opportunity_to_reflect_on_your_past_year_and_make_a_commitment_to_positive_change_during_this_blessed_month">Ramadan is a time of spiritual renewal and reflection. Take this opportunity to reflect on your past year and make a commitment to positive change during this blessed month.</string>
+    <string name="swipe_for_daily_ramadan_insights">Swipe for daily Ramadan insights</string>
+</resources>

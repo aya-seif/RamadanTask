@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="@dimen/mian_lottie_height"
+        android:layout_height="@dimen/main_lottie_width"
+        android:layout_marginTop="-200dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/ramadan" />
+
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xxlarge"
+        android:fontFamily="@font/montserrat_alternates_semibold"
+        android:text="@string/welcome_ramadan"
+        android:textColor="@color/brand_color"
+        android:textSize="@dimen/text_size_medium"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txt_ramadan_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:text="@string/ramadan_is_a_month_of_spiritual_n_devotion_including_fasting_prayer_and_quranic_study_may_allah_n_accept_our_efforts"
+        android:textAlignment="center"
+        android:textColor="@color/brand_color"
+        android:textSize="@dimen/text_size_small"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@id/welcome_text"
+        app:layout_constraintStart_toStartOf="@id/welcome_text"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_text" />
+
+
+    <TextView
+        android:id="@+id/swipe_for_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_xlarge"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:text="@string/swipe_for_daily_ramadan_insights"
+        android:textAlignment="center"
+        android:textColor="@color/brand_color"
+        android:textSize="@dimen/text_size_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationStars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-35dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/hellodoc" />
+
+
+    <TextView
+        android:id="@+id/txt_ramadan_quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_background"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:padding="@dimen/margin_normal"
+        android:text="@string/ramadan_is_a_time_of_spiritual_renewal_and_reflection_take_this_opportunity_to_reflect_on_your_past_year_and_make_a_commitment_to_positive_change_during_this_blessed_month"
+        android:textColor="@color/text_quote_color"
+        android:textSize="@dimen/text_size_small"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

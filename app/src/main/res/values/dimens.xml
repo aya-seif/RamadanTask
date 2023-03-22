@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mian_lottie_height">300dp</dimen>
+    <dimen name="main_lottie_width">300dp</dimen>
+    <dimen name="margin_xxlarge">160dp</dimen>
+    <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="margin_small">14dp</dimen>
+    <dimen name="margin_xlarge">70dp</dimen>
+    <dimen name="margin_xsmall">14dp</dimen>
+    <dimen name="text_xmedium">16sp</dimen>
+</resources>
